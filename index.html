@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor e Vida — Culinária Saudável </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><div class="container">
+      <h1>Sabor e Vida</h1>
+      <p>Receitas saudáveis e dicas para o seu dia a dia</p>
+      
+      <nav>
+        <ul>
+            <li><a href="#sobre">Sobre </a></li>
+            <li><a href="#receitas"> Receitas</a></li>
+            <li><a href="#midia"> Mìdia</div></a></li>
+        </ul>
+        </nav>
+    </div>
+</header>
+    
+  
+
+  <main>
+    <section id="sobre" class="card">
+      <h2>Sobre o site</h2>
+      <p>O <strong>Sabore e Vida</strong> foi criado para quem busca uma alimentação equilibrada e saborosa. Aqui você encontra receitas, vídeos, dicas nutricionais e muito mais.</p>
+      <aside>
+        <h4>Dica Rápida:</h4>
+        <p>Prefira alimentos naturais e evite ultraprocessados. Seu corpo agradece!</p>
+      </aside>
+    </section>
+
+    <section id="receitas" class="card">
+      <h2>Receitas Saudáveis</h2>
+      <article>
+        <h3> Salada Tropical</h3>
+        <ul>
+          <li>Alface e rúcula</li>
+          <li>Frango grelhado</li>
+          <li>Abacaxi em cubos</li>
+          <li>Molho de iogurte natural</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3> Panqueca de Banana</h3>
+        <ol>
+          <li>1 banana amassada</li>
+          <li>2 colheres de aveia</li>
+          <li>1 ovo</li>
+          <li>Asse dos dois lados na frigideira</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3> Tabela Nutricional (Exemplo)</h3>
+        <table>
+          <caption>Valores Médios por Porção</caption>
+          <thead>
+            <tr>
+              <th>Alimento</th>
+              <th>Calorias</th>
+              <th>Proteínas</th>
+              <th>Carboidratos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Banana</td>
+              <td>89 kcal</td>
+              <td>1.1 g</td>
+              <td>23 g</td>
+            </tr>
+            <tr>
+              <td>Frango</td>
+              <td>165 kcal</td>
+              <td>31 g</td>
+              <td>0 g</td>
+            </tr>
+            <tr>
+              <td>Iogurte Natural</td>
+              <td>63 kcal</td>
+              <td>5 g</td>
+              <td>7 g</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">Consulte sempre um nutricionista para ajustar sua dieta.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </section>
+
+    <section id="midia" class="card">
+      <h2>Galeria e Mídia</h2>
+      <figure>
+        <img src="c:\Users\0001151243\Downloads\salada-tropical-com-frutas-2.jpg" alt="Salada tropical colorida">
+        <figcaption>Salada tropical feita com ingredientes frescos.</figcaption>
+      </figure>
+       <p> Música para cozinhar:</p>
+      <audio controls>
+        <source src="media/musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+
+      <p> Vídeo de receita:</p>
+      <video controls width="480">
+        <source src="media/receita.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+
+      <p>Vídeo do YouTube:</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/TbRrF1tCEhU"
+        title="Receitas Saudáveis no YouTube" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+
+    <section id="contato" class="card">
+      <h2>Entre em Contato</h2>
+      <form id="form-contato" action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva aqui..."></textarea>
+
+        <fieldset>
+          <legend>Assunto</legend>
+          <label><input type="checkbox" name="assunto" value="receitas"> Receitas</label>
+          <label><input type="checkbox" name="assunto" value="nutricao"> Nutrição</label>
+          <label><input type="checkbox" name="assunto" value="outros"> Outros</label>
+        </fieldset>
+
+        <label for="nivel">Nível de Culinária:</label>
+        <select id="nivel" name="nivel">
+          <option value="iniciante">Iniciante</option>
+          <option value="intermediario">Intermediário</option>
+          <option value="avancado">Avançado</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sabor & Vida — Alimentação saudável todos os dias </p>
+    
+  </footer>
+
+</body>
+</html>
